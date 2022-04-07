@@ -1,0 +1,113 @@
+.singleProduct {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.singleProduct:hover {
+  box-shadow: 0 0 10px 1px #ccc;
+}
+
+.singleProduct .details {
+  display: flex;
+  justify-content: space-between;
+  /* width: 50%; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.singleProduct .details .current {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  margin: 0 15px;
+}
+
+.singleProduct .details .current span {
+  font-size: 11px;
+}
+
+.singleProduct .details .current span strong {
+  margin-left: 5px;
+  font-size: 12.5px;
+}
+
+.singleProduct .details div {
+  display: flex;
+}
+
+.singleProduct .details span.number {
+  padding: 0 5px;
+  min-width: 40px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #60a5fa;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  user-select: none;
+}
+
+.singleProduct .edit {
+  background-color: transparent;
+  font-size: 16px;
+  color: blueviolet;
+  margin: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.singleProduct p.group {
+  margin: 0 15px;
+}
+
+.singleProduct .edit:hover {
+  color: #1e40af;
+}
+
+@media (max-width: 550px) {
+  .singleProduct p.group,
+  .singleProduct .edit,
+  .singleProduct .details span.number,
+  .singleProduct .details .current {
+    margin: 0 5px;
+  }
+
+  .singleProduct p.group {
+    margin-left: 0;
+  }
+
+  .singleProduct {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .singleProduct h2 {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .singleProduct .details {
+    width: 100%;
+    justify-content: space-around;
+  }
+}

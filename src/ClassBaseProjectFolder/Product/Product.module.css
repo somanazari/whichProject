@@ -1,0 +1,32 @@
+.singleProduct {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+}
+
+.singleProduct:hover {
+  box-shadow: 0 0 10px 1px #ccc;
+}
+
+.singleProduct .details {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.singleProduct .details span.number {
+  font-weight: 300;
+  margin-left: 25px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #1e40af; */
+  border-bottom: 2px solid #444;
+}

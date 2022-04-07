@@ -1,0 +1,10 @@
+.productList {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.noProduct {
+  margin: 30px;
+  font-size: 20px;
+  color: #444;
+}

@@ -1,0 +1,12 @@
+.productApp {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  .productApp {
+    width: 100%;
+  }
+}

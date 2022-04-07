@@ -1,0 +1,78 @@
+.header {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e2e8f0;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logoBox {
+  display: flex;
+  align-items: center;
+}
+
+.header .btn {
+  padding: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ea5e9;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header button.btn .icon {
+  font-size: 14px;
+}
+
+.header button.btn.cancel {
+  background-color: #e11d48;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.header > div > div {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header > div > div .select {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.header > div > div span {
+  margin: 0 3px;
+}
+
+.header > div > div span:first-child {
+  font-weight: bold;
+  color: #5b21b6;
+}
+
+.header > div > div span:last-child {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  padding-top: 3px;
+  justify-content: center;
+  align-items: center;
+  background-color: #16a34a;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+}

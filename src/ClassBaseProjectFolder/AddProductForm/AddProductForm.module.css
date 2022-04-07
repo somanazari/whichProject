@@ -1,0 +1,77 @@
+.productForm {
+  background-color: #334155;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.productForm input {
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin: 10px 0;
+  outline: none;
+  font-size: 15px;
+}
+
+.productForm input::placeholder {
+  color: #ccc;
+}
+
+.productForm input:focus {
+  border-bottom: 3px solid #fff;
+}
+
+.productForm button {
+  background-color: #7e22ce;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  align-self: flex-start;
+  padding: 3px 20px;
+  margin-top: 10px;
+}
+
+.productForm .groupBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #3b495d;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.productForm .groupBox h2 {
+  color: #e2e8f0;
+  margin-bottom: 10px;
+}
+
+.productForm .groupBox .singleGroup {
+  display: flex;
+  align-items: center;
+}
+
+.productForm .groupBox label {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.productForm .groupBox a.newGroupBtn {
+  background-color: #22c55e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  align-self: flex-start;
+  padding: 3px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.productForm .groupBox a.newGroupBtn.Registered {
+  background-color: #ea580c;
+}

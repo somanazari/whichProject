@@ -1,0 +1,9 @@
+/* @import url("http://fonts.cdnfonts.com/css/iranian-sans"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn, sans-serif;
+  direction: rtl;
+}
